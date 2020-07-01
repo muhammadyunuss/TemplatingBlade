@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('home');
 });
 
 Route::get('/data-table', function () {
